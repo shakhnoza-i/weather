@@ -17,7 +17,8 @@ METHOD: GET
 RESPONSE:
 
 JSON: {
-    current_temperature: 36,
-    ten_days_average: 38
+    city: almaty
+    temperature: 36,
+    descriptin: rain
 
 }
