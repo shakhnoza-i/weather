@@ -1,0 +1,16 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %} {{ weather.city }} {% endblock %}</title>
+</head>
+<body>
+  <main>
+    <p>Temperature: {{ weather.temperature }}° C</p>
+    <p>Description: {{ weather.description }}</p>
+    {% block content %}
+    {% endblock %}
+  </main>
+</body>
+</html>
