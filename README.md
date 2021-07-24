@@ -17,8 +17,8 @@ METHOD: GET
 RESPONSE:
 
 JSON: {
-    city: almaty
-    temperature: 36,
+    city: almaty, 
+    temperature: 36, 
     descriptin: rain
 
 }
